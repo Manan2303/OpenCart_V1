@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Registration_Suite">
+	<!-- For Grouping concept-->
+	<groups>
+		
+		<run>
+		<!--<include name="Sanity"/> -->
+		<!-- <include name="Regression"/>-->	 	
+				<include name="Master"/>
+		</run>
+	</groups>
+	
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
+	
+	
+  <test  name="Registration_Test">
+	
+	<parameter name="os" value="Windows"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="https://tutorialsninja.com/demo/">
+			
+		</parameter>
+    <classes>
+     <class name="testCases.Registration_Test"/>
+      <class name="testCases.login_test"/>
+       <!--class name="testCases.TC_loginDataDriven"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+    

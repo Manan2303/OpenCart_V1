@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Registration_Suite" thread-count="5" parallel="tests" >
+	
+	
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
+	
+	
+  <test  name="Registration_Test_chrome">
+	<parameter name="os" value="Windows"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="https://tutorialsninja.com/demo/"></parameter>
+    <classes>
+      <class name="testCases.Registration_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Registration_Test_edge">
+	<parameter name="os" value="Windows"></parameter>
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="url" value="https://tutorialsninja.com/demo/"></parameter>
+    <classes>
+      <class name="testCases.Registration_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- <test  name="Registration_Test_firefox">
+	<parameter name="os" value="Windows"></parameter>
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="url" value="https://tutorialsninja.com/demo/"></parameter>
+		
+    <classes>
+      <class name="testCases.Registration_Test"/>
+    </classes>
+    
+  </test> --><!-- Test -->
+</suite> <!-- Suite -->
