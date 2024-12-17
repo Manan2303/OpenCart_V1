@@ -6,7 +6,7 @@
   
   <!-- Add Maven Plugins-->
   <build>
-	
+	   
     <pluginManagement>
       <plugins>
         <plugin>
@@ -22,7 +22,7 @@
           <configuration>
 	          <suiteXmlFiles>
 				
-				<suiteXmlFile>Grouping.xml</suiteXmlFile>
+				<suiteXmlFile>Master.xml</suiteXmlFile>
 			  </suiteXmlFiles>
           </configuration>
         </plugin>
