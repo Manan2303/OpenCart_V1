@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Master Test(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://tutorialsninja.com/demo/"/>
     <classes>
-      <class name="testCases.login_test">
+      <class name="testCases.TC_Seach_Product">
         <methods>
           <include name="teardown"/>
-          <include name="Login_TC"/>
+          <include name="searchtest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.login_test -->
+      </class> <!-- testCases.TC_Seach_Product -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Master Test(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->

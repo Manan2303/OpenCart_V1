@@ -3,11 +3,13 @@ C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\pageObjects\HomePage.
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\pageObjects\loginPage.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\pageObjects\MyAccountPage.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\pageObjects\Registration_POC.java
+C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\pageObjects\SearchPgae.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\test.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\testBase\BaseClass.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\testCases\login_test.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\testCases\Registration_Test.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\testCases\TC_loginDataDriven.java
+C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\testCases\TC_Seach_Product.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\utilities\dataProvider.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\utilities\ExcelUtility.java
 C:\Users\sriva\eclipse-workspace\OpenCart_V1\src\test\java\utilities\ExtentReportManager.java

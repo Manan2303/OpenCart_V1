@@ -17,8 +17,9 @@
 		</parameter>
 		
     <classes>
-      <class name="testCases.Registration_Test"/>
-      <class name="testCases.login_test"/>
+    <!--   <class name="testCases.Registration_Test"/>
+      <class name="testCases.login_test"/>-->
+      <class name="testCases.TC_Seach_Product"/>
       <!--<class name="testCases.TC_loginDataDriven"/> --> 
     </classes>
   </test> <!-- Test -->
