@@ -8,7 +8,7 @@ public class SearchPgae extends BasePage{
 
 	public SearchPgae(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	

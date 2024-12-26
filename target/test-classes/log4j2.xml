@@ -23,7 +23,7 @@
     </Appenders>
 
     <Loggers>
-        <Root level="OFF"> <!-- You can use / declare multiple log levels like (trace<debug<info<warn<error)-->
+        <Root level="Off"> <!-- You can use / declare multiple log levels like (trace<debug<info<warn<error)-->
             <!--<AppenderRef ref="Console"/>-->
             
             

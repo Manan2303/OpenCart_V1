@@ -18,4 +18,18 @@
       </class> <!-- testCases.Registration_Test -->
     </classes>
   </test> <!-- Registration_Test_chrome(failed) -->
+  <test thread-count="5" parallel="tests" name="Registration_Test_edge(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://tutorialsninja.com/demo/"/>
+    <classes>
+      <class name="testCases.Registration_Test">
+        <methods>
+          <include name="Regis_test"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Registration_Test -->
+    </classes>
+  </test> <!-- Registration_Test_edge(failed) -->
 </suite> <!-- Failed suite [Registration_Suite] -->

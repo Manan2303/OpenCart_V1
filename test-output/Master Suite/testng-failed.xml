@@ -9,13 +9,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="https://tutorialsninja.com/demo/"/>
     <classes>
-      <class name="testCases.TC_Seach_Product">
+      <class name="testCases.login_test">
         <methods>
           <include name="teardown"/>
-          <include name="searchtest"/>
+          <include name="Login_TC"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_Seach_Product -->
+      </class> <!-- testCases.login_test -->
     </classes>
   </test> <!-- Master Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

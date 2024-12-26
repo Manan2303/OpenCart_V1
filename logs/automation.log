@@ -1,0 +1,48 @@
+2024-12-20 12:25:20 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\sriva\eclipse-workspace\OpenCart_V1\Master.xml"
+2024-12-20 12:25:26 INFO  Registration_Test:17 -  ******* Test start ***********
+2024-12-20 12:25:26 INFO  Registration_Test:21 - Account link successfully clicked
+2024-12-20 12:25:28 INFO  Registration_Test:23 - Registration link successfully clicked
+2024-12-20 12:25:28 INFO  Registration_Test:27 - Details enter successfully
+2024-12-20 12:25:29 INFO  Registration_Test:41 - Validation test case 
+2024-12-20 12:25:29 INFO  Registration_Test:61 - Test Finish
+2024-12-20 12:25:36 INFO  login_test:15 -  ******* Test start ***********
+2024-12-20 12:25:36 INFO  login_test:18 - Access Homepage 
+2024-12-20 12:25:36 INFO  login_test:20 - Account link click successfully 
+2024-12-20 12:25:37 INFO  login_test:22 - Login link click successfully 
+2024-12-20 12:25:37 INFO  login_test:28 - Email enterred successfully
+2024-12-20 12:25:37 INFO  login_test:30 - Enter password 
+2024-12-20 12:25:38 INFO  login_test:32 - Button click successfully 
+2024-12-20 12:25:43 ERROR login_test:40 - Test Failled expected mail not matched
+2024-12-20 12:25:43 INFO  login_test:48 - *******Test finished*******
+2024-12-20 12:31:39 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\sriva\eclipse-workspace\OpenCart_V1\Master.xml"
+2024-12-20 12:31:47 INFO  Registration_Test:17 -  ******* Test start ***********
+2024-12-20 12:31:47 INFO  Registration_Test:21 - Account link successfully clicked
+2024-12-20 12:31:48 INFO  Registration_Test:23 - Registration link successfully clicked
+2024-12-20 12:31:48 INFO  Registration_Test:27 - Details enter successfully
+2024-12-20 12:31:49 INFO  Registration_Test:41 - Validation test case 
+2024-12-20 12:31:49 INFO  Registration_Test:61 - Test Finish
+2024-12-20 12:31:56 INFO  login_test:15 -  ******* Test start ***********
+2024-12-20 12:31:56 INFO  login_test:18 - Access Homepage 
+2024-12-20 12:31:56 INFO  login_test:20 - Account link click successfully 
+2024-12-20 12:31:57 INFO  login_test:22 - Login link click successfully 
+2024-12-20 12:31:57 INFO  login_test:28 - Email enterred successfully
+2024-12-20 12:31:57 INFO  login_test:30 - Enter password 
+2024-12-20 12:31:58 INFO  login_test:32 - Button click successfully 
+2024-12-20 12:32:03 ERROR login_test:40 - Test Failled expected mail not matched
+2024-12-20 12:32:03 INFO  login_test:48 - *******Test finished*******
+2024-12-20 12:32:54 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\sriva\eclipse-workspace\OpenCart_V1\Master.xml"
+2024-12-20 12:33:01 INFO  Registration_Test:17 -  ******* Test start ***********
+2024-12-20 12:33:01 INFO  Registration_Test:21 - Account link successfully clicked
+2024-12-20 12:33:02 INFO  Registration_Test:23 - Registration link successfully clicked
+2024-12-20 12:33:02 INFO  Registration_Test:27 - Details enter successfully
+2024-12-20 12:33:03 INFO  Registration_Test:41 - Validation test case 
+2024-12-20 12:33:04 INFO  Registration_Test:61 - Test Finish
+2024-12-20 12:33:09 INFO  login_test:15 -  ******* Test start ***********
+2024-12-20 12:33:09 INFO  login_test:18 - Access Homepage 
+2024-12-20 12:33:09 INFO  login_test:20 - Account link click successfully 
+2024-12-20 12:33:10 INFO  login_test:22 - Login link click successfully 
+2024-12-20 12:33:10 INFO  login_test:28 - Email enterred successfully
+2024-12-20 12:33:10 INFO  login_test:30 - Enter password 
+2024-12-20 12:33:11 INFO  login_test:32 - Button click successfully 
+2024-12-20 12:33:16 ERROR login_test:40 - Test Failled expected mail not matched
+2024-12-20 12:33:16 INFO  login_test:48 - *******Test finished*******
